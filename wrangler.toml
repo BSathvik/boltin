@@ -1,0 +1,10 @@
+name = "boltin"
+type = "webpack"
+account_id = "xxxx"
+zone_id = "xxxx"
+workers_dev = false
+route = "boltin.me/*"
+
+[site]
+bucket = "./build"
+entry_point = "workers-site"
