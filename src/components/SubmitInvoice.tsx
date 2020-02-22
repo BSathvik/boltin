@@ -8,9 +8,7 @@ zpgxq9zsgrjfppqc9yhyhtg65922gumf6kjdwhavzy6x3wenhhf5ndf8vhg\
 5r2e2z82espxk0aadjpsd930arzkjm73lnaa5fdjmkqn69kyt2hkvte6dcq\
 6caa9veeag0dg5jsk5ukm89zwucp4xhspqqfgas`;
 
-export interface SubmitInvoiceProps {
-    test?: string;
-}
+export interface SubmitInvoiceProps {}
 
 export interface SubmitInvoiceState {
     invoice: string;

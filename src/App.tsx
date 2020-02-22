@@ -23,7 +23,7 @@ const App: React.FC = () => {
             <Switch>
               <Route exact path={"/:id"} component={ViewInvoice}/>
               <Route exact path="/">
-                <SubmitInvoice test="This is the homepage"/>
+                <SubmitInvoice />
               </Route>
               <Route path="/">
                 <h1>404 Not Found</h1>
